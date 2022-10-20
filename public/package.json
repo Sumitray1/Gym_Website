@@ -1,0 +1,17 @@
+{
+  "name": "sumit_fitness",
+  "version": "1.0.0",
+  "description": "This is a small website regarding out gym",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon start index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

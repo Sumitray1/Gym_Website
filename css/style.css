@@ -1,0 +1,229 @@
+
+    /* css reset */
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        background: url('../image/bestb.jpg');
+        background-size: 100%;
+
+
+
+    }
+
+    .left {
+        display: block;
+        position: absolute;
+        left: 15px;
+        top: 14px;
+        border: 2px solid rgb(17, 17, 16);
+        border-radius: 4px;
+    }
+
+    .center {
+        display: inline-block;
+        width: 46%;
+        margin: 10px auto;
+        padding: 6px 142px;
+        border: 2px solid rgb(233, 226, 226);
+        border-radius: 17px;
+        left: 27px;
+    }
+
+
+
+    .right {
+        width: 300px;
+        display: inline-block;
+        position: absolute;
+        right: 18px;
+        top: 11px;
+        height: 100px;
+        border: 2px solid rgb(249, 242, 242);
+        border-radius: 13px;
+    }
+
+
+    #logo {
+        height: 90px;
+        width: auto;
+        border-radius: 107px;
+        filter: invert(150%);
+
+    }
+
+    .nbar li {
+        display: inline-block;
+        font-size: 26px;
+        margin: 10px;
+
+    }
+
+    .nbar li a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 9px 14px;
+    }
+
+    .nbar li a:hover,
+    .nbar li a.active {
+        color: rgb(59, 226, 170);
+        text-decoration: underline;
+    }
+
+    .detail li {
+        display: inline-block;
+        padding: 1px 3px;
+    }
+
+    .detail h3 {
+        text-align: center;
+
+    }
+    
+
+    #fb {
+        height: 30px;
+        width: auto;
+        border-radius: 107px;
+
+    }
+
+    #insta {
+        height: 30px;
+        width: auto;
+        border-radius: 107px;
+
+    }
+
+    #yt {
+        height: 30px;
+        width: auto;
+        border-radius: 107px;
+
+    }
+
+    #call {
+        height: 30px;
+        width: auto;
+        border-radius: 107px;
+
+    }
+
+    .detail li a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+
+
+    }
+
+    .detail li a:hover,
+    .detail li a.active {
+        color: rgb(59, 226, 170)a;
+        text-decoration: underline;
+    }
+
+    .sbox::placeholder {
+
+        text-align: center;
+        font-family: 'Baloo Bhai', cursive;
+        padding: 10px 2px;
+        font-weight: bolder;
+        background-color: rgb(26, 122, 122);
+        color: aliceblue;
+        border: 2px solid rgb(26, 122, 122);
+    }
+
+    .sbox {
+        margin: 0px -6px;
+        height: 28px;
+        border-radius: 14px;
+        position: relative;
+        top: -6px;
+        left: -8px;
+    }
+
+
+
+
+    .sbox:hover {
+        cursor: pointer;
+        color: rgb(243, 239, 239);
+        font-weight: bolder;
+        text-align: center;
+        background-color: rgb(59, 226, 170)ua;
+    }
+
+    .sicon {
+        margin: 0px 8px;
+        top: 10px;
+        position: relative;
+        top: 1px;
+    }
+
+    .sicon:hover {
+        cursor: pointer;
+        color: rgb(59, 226, 170);
+        text-decoration: underline;
+    }
+
+    .reg {
+        font-family: 'Baloo Bhai', cursive;
+
+        width: 613px;
+        height: 600px;
+        border: 2px solid white;
+        margin: 127px 258px;
+        border-radius: 15px;
+
+
+    }
+
+    .reg h1 {
+        text-align: center;
+    font-family: 'Baloo Bhai', cursive;
+    border: 2px solid #180f0f;
+    width: 548px;
+    margin: 22px 27px;
+    background-color: #66d7d7;
+    border-radius: 17px;
+    }
+    .reg h1:hover{
+        cursor: pointer;
+        background-color: rgb(59, 226, 170);
+    }
+
+    .detail input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 535px;
+        padding: 10px;
+        border: 2px solid black;
+        margin: 17px auto;
+        font-size: 27px;
+        border-radius: 13px;
+    }
+
+    .detail input:hover {
+        cursor: pointer;
+        background-color: rgb(59, 226, 170);
+    }
+
+    .reg button {
+        font-family: 'Baloo Bhai', cursive;
+        font-size: 27px;
+        display: block;
+        width: 547px;
+        height: 60px;
+        margin: 20px auto;
+        border-radius: 8px;
+        background-color: rgb(26, 122, 122);
+        color: aliceblue;
+    }
+
+    .reg button:hover {
+        cursor: pointer;
+        background-color: rgb(59, 226, 170);
+    }
